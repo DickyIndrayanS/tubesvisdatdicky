@@ -8,9 +8,6 @@ Original file is located at
 """
 
 import pandas as pd
-import matplotlib.animation as animation
-import matplotlib.pyplot as plt
-import numpy as np
 from bokeh.io import curdoc, output_notebook, output_file
 from bokeh.plotting import figure, reset_output, show
 from bokeh.models import HoverTool, ColumnDataSource, GeoJSONDataSource, CustomJS, LabelSet
